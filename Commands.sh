@@ -22,3 +22,37 @@
 
 # WAL files = 16MB each (UnCompressed) (Though can be compressed significantly)
 
+# ./postgres
+
+# /tmp = temporary
+
+# /usr/lib/postgres/9.6/bin/postgres -D ~/new-cluster/ -k /tmp
+
+# createdb, psql -h localhost -p 6000
+
+# pg_dump, pg_restore
+
+# ~/.aws/credentials
+
+# archive_command=archive_command.sh %p
+
+# make_basebackup.sh ~/new-cluster/
+
+
+
+
+
+
+
+
+# Difference archive_command.sh %p AND make_basebackup.sh ~/new-cluster
+
+
+
+
+
+
+
+
+
+# %p???????????????????????????///
