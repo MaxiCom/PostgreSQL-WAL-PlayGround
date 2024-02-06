@@ -38,7 +38,19 @@
 
 # make_basebackup.sh ~/new-cluster/
 
+# pg_basebackup doesn't take a consistent snapshot of the DB.
+# basebackups_, wal_
 
+# WAL PATH: wal_005/000000000000000010000000000010000005.lz4
+# BUCKET: walshipping-bucket-test
+# SERVER:
+
+# wal-g backup-fetch  ~/restored-cluster LATEST
+# ~/restored-cluster/recovery.conf
+
+# restore_command = '/path/to/restore_command.sh %f %p'
+
+# recovery_target_time / recovery_target_xid
 
 
 
